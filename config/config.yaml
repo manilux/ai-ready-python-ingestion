@@ -1,0 +1,15 @@
+input:
+  filename: "data/input/abalone.csv"
+
+
+output:
+  clean_file: "data/output/people_clean.csv"
+  reject_file: "data/output/people_reject.csv"
+
+validation:
+  email_required: true
+  age_positive: true
+  country_required: true
+
+logging:
+  level: "INFO"
